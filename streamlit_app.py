@@ -7,7 +7,7 @@
 import subprocess
 
 # Run the bash script
-subprocess.run(['bash', 'install_requirements.sh'], check=True)
+subprocess.run(['bash', '/mount/src/aivolved_rpac_streamlit/install_requirements.sh'], check=True)
 
 import streamlit as st
 import cv2
