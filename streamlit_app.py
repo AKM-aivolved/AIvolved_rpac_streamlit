@@ -4,6 +4,10 @@
 # st.write(
 #     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 # )
+import subprocess
+
+# Run the bash script
+subprocess.run(['bash', 'install_requirements.sh'], check=True)
 
 import streamlit as st
 import cv2
